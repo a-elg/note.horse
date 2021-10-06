@@ -1,0 +1,33 @@
+{
+  "name": "note.horse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-elg/note.horse.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-elg/note.horse/issues"
+  },
+  "homepage": "https://github.com/a-elg/note.horse#readme",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^5.1.0",
+    "browserslist": "^4.16.5",
+    "glob-parent": "^5.1.2",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.0-beta.6",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.1",
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^1.1.2"
+  }
+}
