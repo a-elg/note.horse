@@ -43,7 +43,7 @@ const Welcome = ({trash, trashItem, add, onChange, item, data, form, goBack}) =>
                                     <th scope="row">{i + 1}</th>
                                     <td>{item.id}</td>
                                     <td>{item.name}</td>
-                                    <td className="text-center"><button className="btn btn-danger">X</button></td>
+                                    <td className="text-center"><button id={item.id} onClick={(e) => trashItem(item) } className="btn btn-danger">X</button></td>
                                 </tr>
                             )
                         )

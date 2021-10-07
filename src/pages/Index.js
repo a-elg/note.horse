@@ -4,6 +4,7 @@ import Logo from '../images/logo.gif';
 const Index= ({form, onChange, onSubmit})=>(
     <div className="principal">
         <div className="container-form">
+
             <form onSubmit={onSubmit} className="form-react">
                 <div className="text-center mb-4">
                     <img src={Logo} alt="Logo IPN" className="logo"/>

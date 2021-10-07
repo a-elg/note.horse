@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter,Route,Switch} from "react-router-dom";
-import IndexContainer from "../containers/indexContainer";
-import Welcome from "../pages/Welcome";
+import IndexContainer from "../containers/IndexContainer";
+import WelcomeContainer from '../containers/WelcomeContainer';
+
 
 
 const App =()=>{
@@ -13,7 +14,7 @@ const App =()=>{
                 </Route>
                 <Route exact path="/welcome">
                     <div>
-                        <Welcome/>
+                        <WelcomeContainer/>
                     </div>
                 </Route>
                 <Route>

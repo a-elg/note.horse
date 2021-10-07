@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useLocation, useParams } from "react-router";
+import { useHistory, useLocation } from "react-router";
 import Welcome from "../pages/Welcome";
 
 
