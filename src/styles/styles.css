@@ -1,10 +1,10 @@
 :root{
-    --principal:#142850;
-    --second:#27496D;
-    --third:#00909E;
-    --fourth:#DAE1E7;
-    --black:#2a2644;
-    --white:#fff;
+    --principal:#EEEEEE;
+    --second:#686D76;
+    --third:#373A40;
+    --fourth:#19D3DA;
+    --black:#202020;
+    --white:rgb(221, 232, 236);
 }
 
 .principal{
